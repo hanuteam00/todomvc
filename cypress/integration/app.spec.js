@@ -59,7 +59,7 @@ describe('TodoMVC', function () {
     .type('learn testing{enter}')
     .type('be cool{enter}')
 
-    cy.get('.todo-list li MANHHHHHHHH').should('have.length', 2)
+    cy.get('.todo-list li').should('have.length', 2)
   })
 
   context('No Todos', function () {
@@ -87,7 +87,7 @@ describe('TodoMVC', function () {
 
     it('should allow me to add todo items', function () {
       // create 1st todo
-      cy.get('.new-todo MANHHHHHHHH')
+      cy.get('.new-todo')
       .type(TODO_ITEM_ONE)
       .type('{enter}')
 
