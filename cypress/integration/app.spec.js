@@ -87,7 +87,7 @@ describe('TodoMVC', function () {
 
     it('should allow me to add todo items', function () {
       // create 1st todo
-      cy.get('.new-todo')
+      cy.get('.new-todo MANHHHHHHHH')
       .type(TODO_ITEM_ONE)
       .type('{enter}')
 
