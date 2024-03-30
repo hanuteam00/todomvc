@@ -28,4 +28,8 @@ This will open index.html in the default browser on your system.
 
 Now you should have the todomvc application running in your browser after following these steps. If you encounter any issues during the installation process, please let me know!
 
-
+//Integrate repo with dashboard
+https://www.youtube.com/watch?v=Oqq-_QZWzhg&list=PL8GlT7H3xOcLJMIPhxlZ8W9kgbeMqW7cH&index=6
+https://cloud.cypress.io/projects/z6osh5/runs (manhtt90@gmail.com)
+projectId: "z6osh5"
+npx cypress run --record --key d8effc47-a6be-4f80-9d65-758507a32dbf
